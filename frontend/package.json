@@ -1,0 +1,64 @@
+{
+  "name": "wld-merkle-tree-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --mode development",
+    "build": "webpack && npx tailwindcss -i ./src/styles.css -o ./build/index.css",
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starkscan/wld-merkle-tree-explorer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starkscan/wld-merkle-tree-explorer/issues"
+  },
+  "homepage": "https://github.com/starkscan/wld-merkle-tree-explorer#readme",
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@popperjs/core": "^2.11.8",
+    "@vx/clip-path": "^0.0.199",
+    "@vx/group": "^0.0.199",
+    "@vx/hierarchy": "^0.0.199",
+    "@vx/responsive": "^0.0.199",
+    "@vx/shape": "^0.0.199",
+    "@vx/zoom": "^0.0.199",
+    "bignumber.js": "^9.1.2",
+    "classnames": "2.2.5",
+    "clsx": "^2.1.0",
+    "d3-hierarchy": "^3.1.2",
+    "d3-shape": "^3.2.0",
+    "prop-types": "15.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-move": "2.7.0",
+    "react-popper": "^2.3.0",
+    "react-spring": "3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "autoprefixer": "^10.4.18",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss": "^8.4.36",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.4.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
