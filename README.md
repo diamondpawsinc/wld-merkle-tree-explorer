@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/diamondpawsinc/wld-merkle-tree-explorer"><img src="https://raw.githubusercontent.com/diamondpawsinc/wld-merkle-tree-explorer/main/frontend/img/logo-small-reverse-invert.svg?token=GHSAT0AAAAAACNQ5YZHQSQYPX3LYJDOUCRMZTRZBQA" width="100"></a>
+  <a href="https://github.com/diamondpawsinc/wld-merkle-tree-explorer"><img src="https://raw.githubusercontent.com/diamondpawsinc/wld-merkle-tree-explorer/main/frontend/img/logo-small.svg" width="100"></a>
   <br>
     Worldcoin Merkle Tree Explorer
   <br>
